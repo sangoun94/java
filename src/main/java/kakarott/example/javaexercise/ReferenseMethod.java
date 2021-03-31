@@ -25,6 +25,8 @@ public class ReferenseMethod {
         ls.add("50");
 
         Consumer<List<String>> consumer = Collections::reverse;
+        System.out.println(ls);  //[30, 40, 50]
         consumer.accept(ls);
+        System.out.println(ls);  //[50, 40, 30]
     }
 }
