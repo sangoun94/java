@@ -1,8 +1,9 @@
-package kakarott.example.javaexercise;
+package com.example.javaexercise.referenseMethod;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.function.Consumer;
-import java.util.stream.Collectors;
 
 public class ReferenseMethod {
     /**
